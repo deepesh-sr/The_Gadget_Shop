@@ -1,5 +1,5 @@
-const { createContext } = require("react");
-
+import { createContext } from "react";
+import { products } from "../constants/products";
 export const ShopContext = createContext();
 
 const ShopContextProvider = ({children}) =>{
