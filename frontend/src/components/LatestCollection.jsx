@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { ShopContext } from "../context/ShopContext"
-import Tittle from "./Tittle";
+import Title from "./Title";
 import ProductDisplay from "./ProductDisplay";
 
 export default function LatestCollection() {
@@ -9,7 +9,7 @@ export default function LatestCollection() {
     return (
         <div className="my-10">
             <div className="text-center py-8 text-3xl">
-                <Tittle title1={"LATEST"} title2={"COLLECTION"} />
+                <Title title1={"LATEST"} title2={"COLLECTION"} />
                 <p className="w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600">
                     Get the latest gadgets your home, explore them, review them, play with them and have fun.</p>
             </div>
